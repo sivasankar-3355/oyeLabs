@@ -22,6 +22,10 @@ var x =  [...shuffle(result)]
 
 let N = x.length;
 let miss = getMissingNo(x, N);
+ if(miss > 100){
+     console.log("no missing value") 
+      return
+ }
 console.log(miss)
   
 
